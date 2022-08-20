@@ -6,7 +6,9 @@
     flex-direction: row;
     margin-top: 1vw;
     height:calc(20vw*1.618);
+    min-height: calc(300px*1.618) ;
     width:20vw;
+    min-width: 330px;
     border: 2px solid black;
     overflow: hidden;
 }
@@ -23,6 +25,7 @@ button {
     font-family: Helvetica;
     margin-top: 2vw;
     width: 20vw;
+    min-width: 330px;
     border: 2px solid black;
     background-color: #ffff;
     padding: .5vw;
