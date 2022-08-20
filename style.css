@@ -1,0 +1,44 @@
+
+
+.canvas{
+    margin-top: 1vw;
+    height:calc(20vw*1.618);
+    width:20vw;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    font-family: Helvetica;
+    margin-top: 2vw;
+    width: 20vw;
+    border: 2px solid black;
+    background-color: #ffff;
+    padding: .5vw;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {
+    background-color: rgb(7, 6, 1);
+    color: #FFFF
+}
+
+button:active {
+    background-color: rgb(7, 6, 1);
+    color: #FFFF;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.title{
+    font-family: Helvetica;
+    letter-spacing: .25vw;
+}
