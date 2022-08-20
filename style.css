@@ -1,6 +1,9 @@
 
 
 .canvas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     margin-top: 1vw;
     height:calc(20vw*1.618);
     width:20vw;
