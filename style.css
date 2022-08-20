@@ -21,11 +21,13 @@ body{
 }
 
 button {
+    color: black;
     cursor: pointer;
     font-family: Helvetica;
     margin-top: 2vw;
     width: 20vw;
     min-width: 330px;
+    min-height: 20px;
     border: 2px solid black;
     background-color: #ffff;
     padding: .5vw;
